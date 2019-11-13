@@ -4,5 +4,15 @@
   "peerDependencies": {
     "@angular/common": "^8.2.13",
     "@angular/core": "^8.2.13"
+  },
+  "jest": {
+    "preset": "jest-preset-angular",
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupJest.ts"
+    ],
+    "transform": {
+      "^.+\\.(ts|js|html)$": "ts-jest",
+      "^.+\\.js$": "babel-jest"
+    }
   }
 }
