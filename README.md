@@ -4,8 +4,8 @@ This project was generated with the following command in order to  create it wit
 
 `ng new angular-workspace-library-jest-cypress --style=scss --skipTests=true --routing=true --minimal=true`
 
-The goal of this repo is to create component library (my-lib) and impor its built components into the angular application
-and run their test with Jest & Cypress.
+The goal of this repo is to create component library (my-lib), import its built (/dist) components into the angular application
+and test them with Jest & Cypress.
 
 ## Library
 
